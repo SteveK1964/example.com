@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello, I am Steve Kuplic</title>
+    </head>
+    <body>
+      <h1>Hello, I am Steve Kuplic</h1>
+      <img style="border-radius: 50%; float: right; margin-right: 1em;" 
+      src="https://www.gravatar.com/avatar/4678a33bf44c38e54a58745033b4d5c6?d=mm&s=64" alt="Steve Kuplic">
+      <p>
+        I have been working in the IT field for more than 20 years.  I actually realized
+        that I was interested in computers in high school as a senior.  A friend of mine
+        and I, using Apple 2e computers (yes, Apple 2e) programmed "We Three Kings" on 
+        four computers each playing a piece of the music.  We had our fingers on the 
+        Enter keys, and pressed them simultaneously and the music that played was 
+        very nice.
+      </p>
+            <nav>
+                    <ul>
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="resume.html">Resume</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+            </nav>
+
+            <script>
+
+                      var toggleMenu = document.getElementById('toggleMenu');
+                      var nav = document.querySelector('nav');
+                      toggleMenu.addEventListener(
+                        'click',
+                        function(){
+                          if(nav.style.display=='block'){
+                            nav.style.display='none';
+                          }else{
+                            nav.style.display='block';
+                          }
+                        }
+                      );
+            </script>
+
+    </body>
+</html>
